@@ -152,7 +152,7 @@ ORDER BY total_sales DESC
 LIMIT 5;
 ```
 
-**8️⃣ Unique Customers by Category **:
+**8️⃣ Unique Customers by Category**:
 ```sql
 SELECT category,
 COUNT(DISTINCT customer_id) AS unique_customers
@@ -161,7 +161,7 @@ GROUP BY category;
 
 ```
 
-9️⃣ Orders by Time of Day (Shift Analysis) **:
+**9️⃣ Orders by Time of Day (Shift Analysis)**:
 ```sql
 WITH hourly_sale AS (
   SELECT *,
