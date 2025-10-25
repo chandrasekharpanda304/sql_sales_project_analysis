@@ -207,7 +207,7 @@ LIMIT 5;
 
 Download or clone this repository:
 
-git clone https://github.com/chandrasekharpanda304/sql-sales-project-analysis.git
+git clone [https://github.com/chandrasekharpanda304/sql_sales_project_analysis/]
 
 
 Open the SQL file in your preferred SQL editor.
